@@ -1,3 +1,23 @@
+# artificialNeruda
+
+Based on [textgenrnn](https://github.com/minimaxir/textgenrnn)
+
+Text-generating neural network based on the poems of Pablo Neruda. 
+
+Find his latest tweets on [@artficialneruda](https://twitter.com/artificialneruda). Mantained by [@artificialsimon](https://twitter.com/artificialsimon).
+
+To run it
+```python
+from textgenrnn import textgenrnn
+
+textgen = textgenrnn(weights_path='weights/neruda_weights.hdf5',
+                     vocab_path='weights/neruda_vocab.json',
+                     config_path='weights/neruda_config.json')
+textgen.generate(temperature=0.3, n=5)
+```
+Change temperature parameter to increase entropy.
+
+
 # textgenrnn
 
 ![dank text](/docs/textgenrnn_console.gif)

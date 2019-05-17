@@ -4,7 +4,7 @@ Based on [textgenrnn](https://github.com/minimaxir/textgenrnn)
 
 Text-generating neural network based on the poems of Pablo Neruda. 
 
-Find his latest tweets on [@artficialneruda](https://twitter.com/artificialneruda). Mantained by [@artificialsimon](https://twitter.com/artificialsimon).
+Find his latest tweets on [@nerudartificial](https://twitter.com/nerudartificial). Mantained by [@artificialsimon](https://twitter.com/artificialsimon).
 
 To run it
 ```python
